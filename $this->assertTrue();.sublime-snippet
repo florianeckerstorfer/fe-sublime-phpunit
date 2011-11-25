@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertTrue(${1:actual}${2:, '${3:message}'});
+]]></content>
+	<tabTrigger>asst</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

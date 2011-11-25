@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertNotNull(${1:actual}${2:, '${3:message}'});
+]]></content>
+	<tabTrigger>assnn</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
