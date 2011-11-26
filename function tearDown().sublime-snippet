@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public function tearDown()
+{
+	${0:// tear down}
+}
+]]></content>
+	<tabTrigger>teardown</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

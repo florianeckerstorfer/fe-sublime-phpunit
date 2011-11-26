@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public function setUp()
+{
+	${0:// set up}
+}
+]]></content>
+	<tabTrigger>setup</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
