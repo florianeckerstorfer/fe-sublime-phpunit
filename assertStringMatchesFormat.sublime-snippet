@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertStringMatchesFormat(${1:format}, ${2:string}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>asssmf</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

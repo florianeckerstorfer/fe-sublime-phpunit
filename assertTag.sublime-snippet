@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertTag(${1:matcher}, ${2:actual}${3:, '${4:message}'}${5:, '${6:isHtml}'});
+]]></content>
+	<tabTrigger>assta</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertStringEndsWith(${1:suffix}, ${2:string}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>asssew</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

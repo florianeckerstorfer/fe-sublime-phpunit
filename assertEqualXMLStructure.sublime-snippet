@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertEqualXMLStructure(${1:expectedElement}, ${2:actualElement}${3:, '${4:checkAttributes}'}${5:, '${6:message}'});
+]]></content>
+	<tabTrigger>assexml</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertCount(${1:expectedCount}, ${2:haystack}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>asscu</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

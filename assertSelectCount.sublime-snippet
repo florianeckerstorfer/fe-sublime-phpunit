@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertSelectCount(${1:selector}, ${2:count}$, ${3:actual}{4:, '${5:message}'}{6:, '${7:isHtml}'});
+]]></content>
+	<tabTrigger>asssc</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertRegExp(${1:pattern}, ${2:string}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>assre</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

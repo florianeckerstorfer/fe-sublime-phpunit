@@ -13,12 +13,42 @@ Twitter: @[braincrafted](http://twitter.com/braincrafted)
 
 ### Assertions
 
+- **assahk** `assertArrayHasKey()`
+- **asscha** `assertClassHasAttribute()`
+- **asschsa** `assertClassHasStaticAttribute()`
+- **assc** `assertContains()`
+- **assco** `assertContainsOnly()`
+- **asscu** `assertCount()`
 - **asse** `assertEquals()`
+- **assem** `assertEmpty()`
+- **assexml** `assertEqualXMLStructure()`
 - **assf** `assertFalse()`
+- **assfe** `assertFileEquals()`
+- **assfx** `assertFileExists()`
+- **assgt** `assertGreatherThan()`
+- **assgte** `assertGreaterThanOrEqual()`
 - **assio** `assertInstanceOf()`
+- **assit** `assertInternalType()`
+- **asslt** `assertLessThan()`
+- **asslte** `assertLessThanOrEqual()`
 - **assnn** `assertNotNull()`
 - **assn** `assertNull()`
+- **assoha** `assertObjectHasAttribute()`
+- **assre** `assertRegExp()`
+- **asss** `assertSame()`
+- **asssc** `assertSelectCount()`
+- **assse** `assertSelectEquals()`
+- **asssef** `assertStringEqualsFile()`
+- **asssew** `assertStringEndsWith()`
+- **asssmf** `assertStringMatchesFormat()`
+- **asssmff** `assertStringMatchesFormatFile()`
+- **asssre** `assertSelectRegExp()`
+- **assssw** `assertStringStartsWith()`
 - **asst** `assertTrue()`
+- **assta** `assertTag()`
+- **assxmlfef** `assertXmlFileEqualsXmlFile()`
+- **assxmlsef** `assertXmlStringEqualsXmlFile()`
+- **assxmlses** `assertXmlStringEqualsXmlString()`
 
 ### Set up and tear down
 

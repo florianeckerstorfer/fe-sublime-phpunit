@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertEmpty(${1:actual}${2:, '${3:message}'});
+]]></content>
+	<tabTrigger>assem</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

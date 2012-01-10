@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertArrayHasKey(${1:key}, ${2:array}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>assahk</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

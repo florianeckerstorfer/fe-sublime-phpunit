@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertFileEquals(${1:expected}, ${2:actual}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>assfe</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

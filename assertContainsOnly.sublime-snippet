@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertContainsOnly(${1:type}, ${2:haystack}${3:, '${4:isNativeType}'}${5:, '${6:message}'});
+]]></content>
+	<tabTrigger>assco</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

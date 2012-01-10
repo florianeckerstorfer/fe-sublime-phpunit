@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertClassHasStaticAttribute(${1:attributeName}, ${2:className}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>asschsa</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

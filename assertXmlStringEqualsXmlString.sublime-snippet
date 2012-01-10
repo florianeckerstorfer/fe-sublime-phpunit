@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertXmlStringEqualsXmlString(${1:expectedXml}, ${2:actualXml}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>assxmlses</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

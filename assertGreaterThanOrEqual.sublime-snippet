@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertGreaterThanOrEqual(${1:expected}, ${2:actual}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>assgte</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

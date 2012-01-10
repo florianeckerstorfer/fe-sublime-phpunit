@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertStringStartsWith(${1:prefix}, ${2:string}${3:, '${4:message}'});
+]]></content>
+	<tabTrigger>assssw</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
