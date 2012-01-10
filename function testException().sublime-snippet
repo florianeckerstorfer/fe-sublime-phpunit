@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${3:description}
+ * @expectedException ${2:exception}
+ */
+public function test${1:name}()
+{
+	${0:// assertions}
+}
+]]></content>
+	<tabTrigger>testex</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
