@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 /**
- * @test
+ * ${2:description}
  */
-public function ${1:name}()
+public function test${1:name}()
 {
 	${0:// assertions}
 }
