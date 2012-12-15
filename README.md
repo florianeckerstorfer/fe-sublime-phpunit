@@ -14,6 +14,7 @@ Twitter: @[braincrafted](http://twitter.com/braincrafted)
 ### Assertions
 
 - **assahk** `assertArrayHasKey()`
+- **assae** `assertAttributeEquals()`
 - **asscha** `assertClassHasAttribute()`
 - **asschsa** `assertClassHasStaticAttribute()`
 - **assc** `assertContains()`
