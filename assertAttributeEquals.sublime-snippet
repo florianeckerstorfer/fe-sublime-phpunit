@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->assertAttributeEquals(${1:expectedValue}, ${2:attributeName}${3:, '${4:object}'});
+\$this->assertAttributeEquals(${1:expectedValue}, ${2:attributeName}${3:, ${4:object}});
 ]]></content>
 	<tabTrigger>assae</tabTrigger>
 	<scope>source.php</scope>
