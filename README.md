@@ -90,3 +90,13 @@ Twitter: @[braincrafted](http://twitter.com/braincrafted)
 		// assertions
 	}
 
+	**testi**
+
+		/**
+		 * [Description]
+		 */
+		public function test[Name]()
+		{
+			// assertions
+			$this->markTestIncomplete('Not yet implemented');
+		}
