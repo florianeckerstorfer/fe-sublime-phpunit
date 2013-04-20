@@ -1,6 +1,6 @@
 # PHPUnit Package for Sublime Text 2
 
-By [Florian Eckerstorfer](http://theroadotojoy.at) <<florian@theroadtojoy.at>>
+By [Florian Eckerstorfer](http://florianeckerstorfer.com) <<florian@eckerstorfer.co>>
 
 Twitter: @[braincrafted](http://twitter.com/braincrafted)
 
