@@ -5,7 +5,7 @@
  */
 public function test${1:name}()
 {
-  \$this->markTestIncomplete('${0:// Not yet implemented}');
+    \$this->markTestIncomplete('${0:// Not yet implemented}');
 }
 ]]></content>
 	<tabTrigger>testi</tabTrigger>
