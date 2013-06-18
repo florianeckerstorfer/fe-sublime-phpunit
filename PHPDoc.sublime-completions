@@ -1,0 +1,8 @@
+{
+    "scope": "comment.block.documentation.phpdoc.php",
+    "completions":
+    [
+        { "trigger": "@covers", "contents": "@covers ${1:methodname}" },
+        { "trigger": "@group",  "contents": "@group ${1:groupname}"   }
+    ]
+}
