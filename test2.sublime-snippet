@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Tests for {@see ${1:method1}()} and {@see ${2:method2}()}.
+ *
+ * @covers ${3:class}::$1()
+ * @covers ${3:class}::$2()
+ */
+public function test${1/(.*)/\u$1/}_${2/(.*)/\u$1/}()
+{
+    ${0:// assertions}
+}
+]]></content>
+    <tabTrigger>test2</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
