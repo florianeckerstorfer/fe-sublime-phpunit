@@ -1,15 +1,25 @@
-# PHPUnit Package for Sublime Text 2
+PHPUnit Snippets for Sublime Text 2
+===================================
 
-By [Florian Eckerstorfer](http://florianeckerstorfer.com) <<florian@eckerstorfer.co>>
+Developed by [Florian Eckerstorfer](http://florianeckerstorfer.com) in Vienna with help from some great contributes.
 
-Twitter: @[braincrafted](http://twitter.com/braincrafted)
+- Twitter: @[Florian_](http://twitter.com/Florian_)
+- App.net: @[florian](https://alpha.app.net/florian)
 
-## Installation
+Installation
+------------
+
+You can install the package via Package Control. Just search for `PHPUnit Snippets`.
+
+Alternatively you can install the package also using Git.
 
 	cd /User/[Your User]/Library/Application\ Support/Sublime\ Text\ 2/Packages
-	git clone https://github.com/florianeckerstorfer/sublime-phpunit ./PHPUnit
+	git clone https://github.com/florianeckerstorfer/fe-sublime-phpunit ./PHPUnit
 
-## Snippets
+Snippets
+--------
+
+The main part of the package are snippets. Here is a list.
 
 ### Assertions
 
@@ -72,9 +82,20 @@ Twitter: @[braincrafted](http://twitter.com/braincrafted)
 **test**
 
 	/**
-	 * [Description]
+	 * @covers [Class]::[Method]()
 	 */
-	public function test[Name]()
+	public function test[Method]()
+	{
+		// assertions
+	}
+
+**test2**
+
+	/**
+	 * @covers [Class]::[Method1]()
+	 * @covers [Class]::[Method2]()
+	 */
+	public function test[Method1]_[Method2]()
 	{
 		// assertions
 	}
@@ -82,10 +103,10 @@ Twitter: @[braincrafted](http://twitter.com/braincrafted)
 **testex**
 
 	/**
-	 * [Description]
+	 * @covers [Class]::[Method]()
 	 * @expectedException [Exception]
 	 */
-	public function test[Name]()
+	public function test[Method]()
 	{
 		// assertions
 	}
@@ -93,20 +114,23 @@ Twitter: @[braincrafted](http://twitter.com/braincrafted)
 **testi**
 
 	/**
-	 * [Description]
+	 * @covers [Class]::[Method]()
 	 */
-	public function test[Name]()
+	public function test[Method]()
 	{
-		// assertions
-		$this->markTestIncomplete('Not yet implemented');
+	    \$this->markTestIncomplete('Not yet implemented');
 	}
 
-## Contributors
+
+Contributors
+------------
 
 - [Brandon Boswell](https://github.com/brandonkboswell)
 - [Cyrus David](https://github.com/Apathetic012)
 
-## License
+
+License
+-------
 
 The MIT License (MIT)
 

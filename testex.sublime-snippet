@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 /**
- * ${3:description}
- * @expectedException ${2:exception}
+ * @covers ${2:class}::$1()
+ * @expectedException ${3:exception}
  */
-public function test${1:name}()
+public function test${1/(.*)/\u$1/}()
 {
 	${0:// assertions}
 }
