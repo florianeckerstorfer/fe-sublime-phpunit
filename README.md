@@ -118,7 +118,7 @@ The main part of the package are snippets. Here is a list.
 	 */
 	public function test[Method]()
 	{
-	    \$this->markTestIncomplete('Not yet implemented');
+	    $this->markTestIncomplete('Not yet implemented');
 	}
 
 
