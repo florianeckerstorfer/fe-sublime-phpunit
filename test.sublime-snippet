@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
 /**
- * Tests for {@see ${1:method}()}.
- *
  * @covers ${2:class}::$1()
  */
 public function test${1/(.*)/\u$1/}()
